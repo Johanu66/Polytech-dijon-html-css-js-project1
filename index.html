@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        button:active {
+            background-color: #3e8e41;
+        }
+        input, select {
+            padding: 10px;
+            margin: 4px 2px;
+        }
+        select {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titre</h1>
+    <p>Un paragracapphe avec <strong>un texte important</strong></p>
+    <p>Un autre paragraphe avec <a href="#">un lien</a></p>
+    <div>
+        <input type="text">
+        <button>Tester</button>
+    </div><br>
+
+    <div>
+        <select>
+            <option>Valeur 1</option>
+            <option>Valeur 2</option>
+            <option>Valeur 3</option>
+        </select>
+        <button id="ajouter">Ajoiuter</button>
+        <button id="supprimer">Supprimer</button>
+    </div>
+
+    <script defer src="script.js"></script>
+</body>
+</html>
